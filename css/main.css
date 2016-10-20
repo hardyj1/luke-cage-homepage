@@ -1,0 +1,48 @@
+/* Media queries for xs, sm, md, and large screens */
+/* TVs, large desktops, and laptops */
+@media (min-width: 1200px) {
+    .lead {
+      font-size: 21px;
+  }
+    .navbar-header {
+}
+
+/* Desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/* Tablets */
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/* Larger phones/Small tablets */
+@media (max-width: 767px) {
+
+}
+
+/* Main content styling */
+
+header {
+    position: center;
+}
+
+.img-responsive {
+    background-image: url('../media/images/luke-cage-banner.jpg') no-repeat center center scroll;
+    padding: 0;
+    background-size: 100% 100%;
+    display: block;
+	margin-right: auto;
+	margin-left: auto;
+   
+}
+
+.img-responsive {  
+    text-align: center;
+    background-size: cover;
+}
+
+.container {
+    border: solid 1px;
+}
